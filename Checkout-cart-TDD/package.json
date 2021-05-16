@@ -1,0 +1,16 @@
+{
+  "name": "unit-testing-and-tdd-nodejs",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "author": "cesar-vega-unosquare <84047470+cesar-vega-unosquare@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "type": "module" 
+}
